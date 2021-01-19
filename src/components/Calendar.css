@@ -1,0 +1,54 @@
+.Header {
+    color: #fff;
+}
+
+.Header-Month-Name {
+    font-size: 34px;
+    margin-top: 10px;
+}
+
+.Header-Navigation {
+    margin-bottom: 20px;
+}
+
+.Header-Navigation>span {
+    cursor: pointer;
+}
+
+
+.Display-Form {
+    display: block;
+}
+.Hide-Form {
+    display: none;
+}
+.Form-Control {
+    background-color:rgba(204, 204, 204, 0.3);
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+}
+.Form-Content {
+    z-index: 1500;
+    background-color: rgb(241, 241, 241);
+    padding: 20px;
+    margin-top: 100px;
+}
+.Form-Input {
+    font-style: italic;
+}
+.Form-Input>input {
+    height: 20px;
+    align-items: right;
+    margin: 0px 0px 5px 5px;
+}
+.Form-Buttons>button {
+    margin: 10px;
+    padding: 5px 30px;
+}
+.Events-List {
+    color: #fff;
+}

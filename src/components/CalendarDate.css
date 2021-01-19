@@ -1,0 +1,46 @@
+.Date-Cell {
+    width: 140px;
+    height: 80px;
+    display: inline-block;
+    margin: 0px 10px 10px 0px;
+    padding: 5px;
+    vertical-align: top;
+    cursor: pointer;
+}
+.Active-Date-Cell {    
+    color: #fff;    
+    background-color: rgba(128, 128, 128, 0.3);
+    text-align: left;
+}
+.Inactive-Date-Cell {
+    background-color: rgba(128, 128, 128, 0.1);
+    color: rgba(128, 128, 128, 0.1);;
+    text-align: left;
+}
+.Today-Date-Cell {
+    color: #fff;
+    background-color: rgba(149, 149, 211, 0.5);
+    text-align: left;
+}
+.Events {
+    font-size: 12px;
+    cursor: normal;
+}
+.Event {
+    font-style: italic;
+    background-color: rgb(118, 118, 206);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.Events-List > .Event {
+    min-width: 100px;
+    text-align: left;
+    display: inline-block;
+    margin: 0px 5px 5px 0px;
+}
+.Event-Delete {
+    cursor: pointer;
+    color: red;
+    padding: 5px;
+}
